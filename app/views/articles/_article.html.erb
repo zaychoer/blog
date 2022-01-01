@@ -5,6 +5,10 @@
   </p>
 
   <p class="my-5">
+    Posted <%= time_tag article.created_at, "data-local": "time-ago"%>
+  </p>
+
+  <p class="my-5">
     <strong class="block font-medium mb-1">Content:</strong>
     <%= article.content %>
   </p>
