@@ -9,6 +9,10 @@
   </p>
 
   <p class="my-5">
+    <strong><%= pluralize article.comments.count, "comment" %></strong>
+  </p>
+
+  <p class="my-5">
     <strong class="block font-medium mb-1">Content:</strong>
     <%= article.content %>
   </p>
